@@ -1,0 +1,21 @@
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.search-bar input {
+  padding: 10px;
+  padding-left: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px; /* Điều chỉnh kích thước theo ý muốn */
+}
+
+.search-bar .fa-magnifying-glass {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
